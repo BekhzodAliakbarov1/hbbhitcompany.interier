@@ -1,0 +1,46 @@
+.page_red {
+    display: flex;
+    background-color: red;
+    height: 60vh;
+}
+
+.red_two {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.page_red h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    width: 80%;
+    font-size: 46px;
+    color: #fff;
+}
+
+.buttonUs > button {
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 1rem 2rem ;
+    margin-top: 2rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
+@media screen and (max-width: 660px){
+    .page_red h2{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .red_two{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonUs button{
+        width: 100%;
+    }
+}

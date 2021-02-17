@@ -1,0 +1,31 @@
+.m_bottom {
+    background-color: #11141b;
+    width: 100%;
+}
+
+.lorem {
+    padding: 5rem 0;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.testi_logo {
+    background-repeat: no-repeat;
+    background-size: cover center center;
+    width: 111px;
+    height: 111px;
+    margin: auto;
+}
+
+.lorem p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300 !important;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.lorem p span{
+    color: red;
+}
